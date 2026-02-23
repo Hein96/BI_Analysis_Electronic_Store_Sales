@@ -1,7 +1,5 @@
 # 📊 Electronics Sales Analysis Dashboard
 
-image/BI Analysis.jpg
-
 ## Executive Summary
 
 This project involved building a robust, end-to-end Business Intelligence solution to analyze over **10,000 rows** of electronic store sales data. The primary objective was to identify the **Product Hierarchy of revenue** and uncover **temporal patterns** in consumer behavior.
@@ -9,6 +7,12 @@ This project involved building a robust, end-to-end Business Intelligence soluti
 To achieve this, the solution leveraged a **Windows 11 virtual machine running on Apple Silicon (M4)** to utilize the full capabilities of the Excel DAX engine and Power Pivot.
 
 ---
+
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="image/BI%20Analysis.jpg" width="900"/>
+</p>
 
 ## 🚀 Key Business Insights
 
