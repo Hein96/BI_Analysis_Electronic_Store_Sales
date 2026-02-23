@@ -1,5 +1,7 @@
 # 📊 Electronics Sales Analysis Dashboard
 
+image/BI Analysis.jpg
+
 ## Executive Summary
 
 This project involved building a robust, end-to-end Business Intelligence solution to analyze over **10,000 rows** of electronic store sales data. The primary objective was to identify the **Product Hierarchy of revenue** and uncover **temporal patterns** in consumer behavior.
