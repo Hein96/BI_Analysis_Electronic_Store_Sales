@@ -1,22 +1,94 @@
-Executive Summary: Electronics Sales Analysis Dashboard
-Project Overview
+# 📊 Electronics Sales Analysis Dashboard
 
-This project involved building a robust, end-to-end Business Intelligence solution to analyze over 10,000 rows of electronic store sales data. The goal was to identify the "Product Hierarchy" of revenue and uncover "Temporal Patterns" in consumer behavior. To achieve this, I utilized a Windows 11 virtual machine on an M4 Mac to leverage the full power of the Excel DAX engine and Power Pivot.
+## Executive Summary
 
-Key Business Insights
+This project involved building a robust, end-to-end Business Intelligence solution to analyze over **10,000 rows** of electronic store sales data. The primary objective was to identify the **Product Hierarchy of revenue** and uncover **temporal patterns** in consumer behavior.
 
-The "Premium" Driver: While low-cost accessories like cables represent a high volume of transactions, the MacBook Pro Laptop is the primary revenue driver, contributing significantly to the total sales of $34.4M.
+To achieve this, the solution leveraged a **Windows 11 virtual machine running on Apple Silicon (M4)** to utilize the full capabilities of the Excel DAX engine and Power Pivot.
 
-Peak Shopping Hours: Analysis of the temporal data revealed specific "surges" in shopping activity throughout the day, providing actionable data for targeted marketing and inventory management.
+---
 
-Geographic Variability: By engineering a custom City extraction from unstructured address data, the dashboard allows for real-time comparison of sales performance across major tech hubs like San Francisco, Austin, and New York.
+## 🚀 Key Business Insights
 
-Technical Stack & Methodology
+### 💎 The "Premium" Revenue Driver
 
-Environment: Windows 11 Pro via UTM on Apple Silicon (M4).
+* While low-cost accessories such as cables generate high transaction volume, the **MacBook Pro Laptop** is the dominant revenue contributor.
+* The product significantly drives the total sales figure of **$34.4M**.
 
-Data Modeling: Implemented a Star Schema by creating a dedicated Calendar Dimension Table linked to the Sales Fact Table.
+### ⏰ Peak Shopping Hours
 
-Advanced Analytics (DAX): Developed custom measures including Total Revenue, Average Order Value (AOV), and Total Units Sold.
+* Temporal analysis revealed distinct **surges in shopping activity** throughout the day.
+* These insights enable:
 
-Data Engineering: Used Power Query for advanced ETL (Extract, Transform, Load) processes, including URI hostname troubleshooting and delimiter-based string manipulation.
+  * Targeted marketing campaigns
+  * Optimized staffing
+  * Improved inventory planning
+
+### 🌎 Geographic Variability
+
+* Implemented custom **City extraction** from unstructured address data.
+* The dashboard supports real-time comparison across major tech hubs, including:
+
+  * San Francisco
+  * Austin
+  * New York
+
+---
+
+## 🛠 Technical Stack & Methodology
+
+### Environment
+
+* Windows 11 Pro via UTM on Apple Silicon (M4)
+
+### Data Modeling
+
+* Implemented a **Star Schema** architecture
+* Created a dedicated **Calendar Dimension Table**
+* Established relationships with the **Sales Fact Table**
+
+### Advanced Analytics (DAX)
+
+Custom measures developed:
+
+```DAX
+Total Revenue := SUM(Sales[Revenue])
+
+Total Units Sold := SUM(Sales[Quantity Ordered])
+
+Average Order Value := DIVIDE([Total Revenue], DISTINCTCOUNT(Sales[Order ID]))
+```
+
+### Data Engineering (Power Query)
+
+Performed advanced ETL processes:
+
+* Data cleaning and normalization
+* URI hostname troubleshooting
+* Delimiter-based string manipulation
+* Custom city extraction from address field
+
+---
+
+## 📂 Project Scope
+
+* ✔ End-to-end BI pipeline
+* ✔ Data modeling with Power Pivot
+* ✔ Advanced DAX measures
+* ✔ Interactive dashboard design
+* ✔ Geographic and temporal analysis
+
+---
+
+## 🔮 Future Improvements
+
+* Add predictive sales forecasting
+* Integrate real-time data refresh
+* Expand geographic segmentation
+* Deploy to Power BI Service
+
+---
+
+## 📌 Author Notes
+
+This project demonstrates practical Business Intelligence skills including **data modeling, DAX analytics, and ETL engineering** in a Microsoft-centric analytics stack.
