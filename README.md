@@ -11,7 +11,7 @@ To achieve this, the solution leveraged a **Windows 11 virtual machine running o
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="image/BI%20Analysis.jpg" width="900"/>
+  <img src="images/BI%20Analysis.jpg" width="900"/>
 </p>
 
 ## 🚀 Key Business Insights
