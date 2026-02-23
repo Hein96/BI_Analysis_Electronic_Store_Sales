@@ -1,5 +1,3 @@
-# BI_Analysis_Electronic_Store_Sales
-
 Executive Summary: Electronics Sales Analysis Dashboard
 Project Overview
 
